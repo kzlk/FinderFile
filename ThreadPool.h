@@ -1,0 +1,8 @@
+//
+// Created by kzlk on 7/26/23.
+//
+
+#ifndef FILEFINDER_THREADPOOL_H
+#define FILEFINDER_THREADPOOL_H
+
+#endif //FILEFINDER_THREADPOOL_H
