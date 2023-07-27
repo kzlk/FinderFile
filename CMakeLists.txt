@@ -3,4 +3,4 @@ project(FileFinder)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(FileFinder main.cpp  FInder.cpp Finder.h ThreadPool.h NewThreadPool.h)
+add_executable(FileFinder main.cpp FileFInder.cpp FileFinder.h ThreadPool.h)
