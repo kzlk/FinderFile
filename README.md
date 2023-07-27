@@ -19,8 +19,7 @@ To install the File Search Application, follow these steps:
 
 1. Clone this repository to your local machine:
 ```bash
-git clone <repository_url> 
-cd file-search-application
+git clone https://github.com/kzlk/FinderFile.git
 ```
 
 2. Build the application using the provided Makefile:
@@ -31,7 +30,6 @@ make
 3. Run the application:
 ```bash
 ./FileSearcher <file_name> [<search_directory>]
-
 ```
 - `<file_name>`: The name of the file you want to find.
 - `[<search_directory>]` (optional): The directory where the search should start. If not provided, the search begins from the root directory ("/" on Unix-like systems or "C:" on Windows OS).
