@@ -39,7 +39,7 @@ auto FileFinder::searchInDirectory(const fs::path &path, const std::string &file
     }
 }
 
-auto FileFinder::getCountOfFolders(const fs::path &path) -> uint {
+auto FileFinder::getCountOfFolders(const fs::path &path) -> unsigned int {
     return std::count_if(std::filesystem::directory_iterator(path),
                          std::filesystem::directory_iterator(),
                          [](const auto& entry) { return entry.is_directory(); });

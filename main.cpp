@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
     }
 
     FileFinder finder{};
-    std::string result{};
+    fs::path result{};
 
     if(argc == 2) result = finder.findFile(argv[1]);
     else result = finder.findFile(argv[1], argv[2]);

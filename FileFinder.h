@@ -18,7 +18,7 @@ private:
     std::mutex printMutex;
     fs::path foundFilePath;
 
-    static auto getCountOfFolders(const fs::path& path) -> uint;
+    static auto getCountOfFolders(const fs::path& path) -> unsigned int;
     auto searchInDirectory(const fs::path& path, const std::string& fileName) -> void;
 };
 
